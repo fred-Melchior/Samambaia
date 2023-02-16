@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 118, 15);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h1{
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+    padding: 16px 0;
+}
+
+header nav li{
+    display: inline;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+header nav li a{
+    font-size: 32px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-bottom: 8px;
+    color: rgb(15, 118, 15);
+}
+
+section{
+    background-color: antiquewhite;
+    margin-top: 8px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img{
+    padding: 0 24px;
+    height: 300px;
+    width: 300px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.container-fotos{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    justify-content: space-around;
+}
+
+form{
+    margin-left: 24px;
+}
+
+form h3{
+    color: #0f760f;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgb(255, 237, 215);
+    color: #014701;
+}
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    background-color: rgb(15, 118, 15);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #15b715;
+}
+
+footer{
+    background-color: rgb(15, 118, 15);
+    color: antiquewhite;
+    padding: 0 16px;
+    text-align: center;
+    height: 24px;
+}
+
+footer .container p{
+    text-align: end;
+}
